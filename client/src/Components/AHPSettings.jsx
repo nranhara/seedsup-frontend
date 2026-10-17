@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./AHPSettings.css";
 
-const API = "http://localhost:5001/api/suppliers/ahp-config";
+// const API = "http://localhost:5001/api/suppliers/ahp-config";
+const API = `${import.meta.env.VITE_API_BASE_URL}/api/suppliers/ahp-config`;
 
 const PAIRS = [
   { key: "price_rating", first: "Price", second: "Rating" },

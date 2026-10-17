@@ -26,11 +26,14 @@ const RecommendationForm = () => {
 
   const topSupplier = filteredSuppliers[0];
 
+
+          // "http://localhost:5001/api/suppliers/rank",
+
   // Get recommendations
   const getRecommendations = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5001/api/suppliers/rank",
+        `${import.meta.env.VITE_API_BASE_URL}/api/suppliers/rank`,
         {
           seedType,
           region,
