@@ -136,7 +136,6 @@ const RecommendationForm = () => {
             <div className="grid md:grid-cols-4 gap-4 mt-8">
               <div className="bg-white/5 p-4 rounded-2xl text-center">
                 <p className="text-slate-400 text-sm">Price</p>
-                <p className="font-bold mt-2">Cost</p>
               </div>
 
               <div className="bg-white/5 p-4 rounded-2xl text-center">
