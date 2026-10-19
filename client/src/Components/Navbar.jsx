@@ -3,13 +3,13 @@ const Navbar = () => {
 <nav className="fixed top-0 w-full z-50 px-14 py-7 flex justify-between items-center glass">
       <div>
 
-        <h1 className="text-3xl font-bold text-green-400">
+        {/* <h1 className="text-3xl font-bold text-green-400">
           SeedAI
         </h1>
 
         <p className="text-xs text-slate-400">
           Smart Supplier Matching
-        </p>
+        </p> */}
 
       </div>
 
@@ -32,9 +32,9 @@ const Navbar = () => {
 
       </div>
 
-      <button className="primary-btn">
+      {/* <button className="primary-btn">
         Start
-      </button>
+      </button> */}
 
     </nav>
   )
